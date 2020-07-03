@@ -1,11 +1,11 @@
 /* ==UserStyle==
-@name        GitHub Dark
-@namespace   StylishThemes
+@name        YuQue Dark
+@namespace   LoadChange
 @version     {{version}}
-@homepageURL https://github.com/StylishThemes/GitHub-Dark
-@updateURL   https://stylishthemes.github.io/GitHub-Dark/github-dark.user.css
-@license     BSD-2-Clause
-@author      StylishThemes
+@homepageURL https://github.com/loadchange/YuQue-Dark
+@updateURL   https://loadchange.github.io/YuQue-Dark/yuque-dark.user.css
+@license     MIT
+@author      LoadChange
 @advanced color base-color "Base color" #4f8cc9
 @advanced color bg-color "Background Color" #202020
 @advanced dropdown bg-choice "Background" {
@@ -36,15 +36,6 @@
   scroll EOT;
   Fixed "Fixed" <<<EOT
   fixed EOT;
-}
-@advanced dropdown syntax-theme "Github syntax theme" {
-  {{themes:github}}
-}
-@advanced dropdown syntax-codemirror "CodeMirror syntax theme" {
-  {{themes:codemirror}}
-}
-@advanced dropdown syntax-jupyter "Jupyter syntax theme" {
-  {{themes:jupyter}}
 }
 @advanced dropdown tab-size "Code Tab size" {
   2 "2" <<<EOT
