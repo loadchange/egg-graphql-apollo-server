@@ -111,7 +111,7 @@ async function main() {
     css += `${sourceCss.trim()}\n`;
   }
 
-  await writeFile(resolve(__dirname, "../github-dark.user.css"), css);
+  await writeFile(resolve(__dirname, "../yuque-dark.user.css"), css);
 }
 
 main().then(exit).catch(exit);
