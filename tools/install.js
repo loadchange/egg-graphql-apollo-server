@@ -6,7 +6,7 @@ const {createServer} = require("http");
 const {resolve} = require("path");
 const {readFileSync} = require("fs");
 
-const file = readFileSync(resolve(__dirname, "../github-dark.user.css"));
+const file = readFileSync(resolve(__dirname, "../yuque-dark.user.css"));
 
 const server = createServer((_, res) => {
   res.setHeader("content-type", "text/css");
@@ -19,5 +19,5 @@ const server = createServer((_, res) => {
 });
 
 server.listen(() => {
-  open(`http://localhost:${server.address().port}/github-dark.user.css`);
+  open(`http://localhost:${server.address().port}/yuque-dark.user.css`);
 });
