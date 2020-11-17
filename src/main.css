@@ -1,90 +1,90 @@
 @-moz-document domain("yuque.antfin-inc.com"), domain("yuque.com") {
-    .layout-container-middle.layout-container {
-        max-width: 100%;
-    }
-    .header, .footer-container {
-        border-top-color: /*[[base-color]]*/ !important;
-        border-bottom: 1px solid #343434 !important;
-        background: #181818 !important;
-    }
-    .footer-container {
-        padding: 20px 0;
-        border-top: 1px solid var(--color-border-primary) !important;
-    }
-    .main-wrapper, .centerJustifyWrapper___3OMgk {
-        background-image: var(--ghd-bg-img) !important;
-    }
-    .container___t6_-A > div {
-        margin-bottom: 20px;
-    }
-    .container___t6_-A > div > .ant-row,
-    .eventCardList___1Qti2 > .eventsItem___3DV9M {
-        background-color: var(--color-bg-primary);
-        border-color: var(--color-border-primary);
-        border: 1px solid var(--color-border-primary);
-        border-radius: 6px;
-        padding: 18px;
-    }
-    .bookDetailList___3cXCP, .eventsDetailUser___2pIXn {
-        background: var(--color-autocomplete-border);
-        border: 1px solid var(--color-autocomplete-row-border);
-    }
-    .title___YBLJF, .title___3GHtC, .title___3eVCN, .popover___2pSHo,
-    .book-name-text, .book___3yEOq, .title___dyWzB, .menu___1j8mR,
-    .recentTitle___1c88c > a, .eventTitle____aXJe > a {
-        color: var(--ghd-body-color);
-    }
-    .recentTitle___1c88c > a:hover, .eventTitle____aXJe > a:hover {
-        color: var(--color-btn-bg-hover);
-    }
-    .ant-col.ant-col-xs-24.ant-col-sm-4 {
-        background: #181818;
-        border-right: 1px solid var(--color-border-primary) !important;
-    }
-    .loadMore___37MwV, .loadMore___kqS7K, .ant-btn {
-        color: var(--color-btn-text) !important;
-        background: var(--color-btn-bg) !important;
-        border-color: var(--color-btn-border) !important;
-        transition: .2s cubic-bezier(.3, 0, .5, 1) !important;
-        transition-property: color, background-color, border-color !important;
-    }
-    .ant-btn:hover {
-        background: var(--color-btn-bg-hover) !important;
-    }
-    .header-nav.header-nav-left.header-nav-menu > ul > li > a {
-        color: var(--color-header-text);
-    }
-    .header-nav.header-nav-left.header-nav-menu > ul > li.ant-menu-item-selected a {
-        color: #fff !important;
-    }
-    .header-nav.header-nav-left.header-nav-menu > ul > li.ant-menu-item-active a {
-        color: #fff !important;
-    }
-    .navLink___2yrjt {
-        color: var(--color-text-link) !important;
-    }
-    .navLink___2yrjt:hover {
-        font-weight: 700;
-        background: transparent !important;
-        text-decoration: underline !important;
-    }
-    .ant-card-body, .aside___3Fp46 {
-        background: #181818 !important;
-        border-color: var(--color-border-primary) !important;
-    }
-    .linkItem___2iYzY:hover {
-        background-color: var(--color-header-search-bg) !important;
-    }
-    h1, h2, h3, h4, h5, h6 {
-        color: var(--color-header-text) !important;
-    }
-    .lake-typography-classic {
-        color: #fff !important;
-    }
-    .larkui-synopsis .larkui-synopsis-progress-bar {
-        border-left: 2px solid #595959 !important;
-    }
-    .larkui-synopsis .larkui-synopsis-item-collapsible-link a {
-        color: #595959;
-    }
+  .layout-container-middle.layout-container {
+    max-width: 100%;
+  }
+  .header, .footer-container {
+    border-top-color: /*[[base-color]]*/ !important;
+    border-bottom: 1px solid #343434 !important;
+    background: #181818 !important;
+  }
+  .footer-container {
+    padding: 20px 0;
+    border-top: 1px solid var(--color-border-primary) !important;
+  }
+  .main-wrapper, .centerJustifyWrapper___3OMgk {
+    background-image: var(--ghd-bg-img) !important;
+  }
+  .container___t6_-A > div {
+    margin-bottom: 20px;
+  }
+  .container___t6_-A > div > .ant-row,
+  .eventCardList___1Qti2 > .eventsItem___3DV9M {
+    background-color: var(--color-bg-primary);
+    border-color: var(--color-border-primary);
+    border: 1px solid var(--color-border-primary);
+    border-radius: 6px;
+    padding: 18px;
+  }
+  .bookDetailList___3cXCP, .eventsDetailUser___2pIXn {
+    background: var(--color-autocomplete-border);
+    border: 1px solid var(--color-autocomplete-row-border);
+  }
+  .title___YBLJF, .title___3GHtC, .title___3eVCN, .popover___2pSHo,
+  .book-name-text, .book___3yEOq, .title___dyWzB, .menu___1j8mR,
+  .recentTitle___1c88c > a, .eventTitle____aXJe > a {
+    color: var(--ghd-body-color);
+  }
+  .recentTitle___1c88c > a:hover, .eventTitle____aXJe > a:hover {
+    color: var(--color-btn-bg-hover);
+  }
+  .ant-col.ant-col-xs-24.ant-col-sm-4 {
+    background: #181818;
+    border-right: 1px solid var(--color-border-primary) !important;
+  }
+  .loadMore___37MwV, .loadMore___kqS7K, .ant-btn {
+    color: var(--color-btn-text) !important;
+    background: var(--color-btn-bg) !important;
+    border-color: var(--color-btn-border) !important;
+    transition: .2s cubic-bezier(.3, 0, .5, 1) !important;
+    transition-property: color, background-color, border-color !important;
+  }
+  .ant-btn:hover {
+    background: var(--color-btn-bg-hover) !important;
+  }
+  .header-nav.header-nav-left.header-nav-menu > ul > li > a {
+    color: var(--color-header-text);
+  }
+  .header-nav.header-nav-left.header-nav-menu > ul > li.ant-menu-item-selected a {
+    color: #fff !important;
+  }
+  .header-nav.header-nav-left.header-nav-menu > ul > li.ant-menu-item-active a {
+    color: #fff !important;
+  }
+  .navLink___2yrjt {
+    color: var(--color-text-link) !important;
+  }
+  .navLink___2yrjt:hover {
+    font-weight: 700;
+    background: transparent !important;
+    text-decoration: underline !important;
+  }
+  .ant-card-body, .aside___3Fp46 {
+    background: #181818 !important;
+    border-color: var(--color-border-primary) !important;
+  }
+  .linkItem___2iYzY:hover {
+    background-color: var(--color-header-search-bg) !important;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--color-header-text) !important;
+  }
+  .lake-typography-classic {
+    color: #fff !important;
+  }
+  .larkui-synopsis .larkui-synopsis-progress-bar {
+    border-left: 2px solid #595959 !important;
+  }
+  .larkui-synopsis .larkui-synopsis-item-collapsible-link a {
+    color: #595959;
+  }
 }

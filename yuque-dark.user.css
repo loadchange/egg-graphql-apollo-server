@@ -137,20 +137,6 @@
   }
 }
 @-moz-document domain("yuque.antfin-inc.com"), domain("yuque.com") {
-  h1, h2, h3, h4, h5, h6 {
-    color: var(--color-header-text) !important;
-  }
-  .lake-typography-classic {
-    color: #fff !important;
-  }
-  .larkui-synopsis .larkui-synopsis-progress-bar {
-    border-left: 2px solid #595959 !important;
-  }
-  .larkui-synopsis .larkui-synopsis-item-collapsible-link a {
-    color: #595959;
-  }
-}
-@-moz-document domain("yuque.antfin-inc.com"), domain("yuque.com") {
   .layout-container-middle.layout-container {
     max-width: 100%;
   }
@@ -226,5 +212,17 @@
   }
   .linkItem___2iYzY:hover {
     background-color: var(--color-header-search-bg) !important;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--color-header-text) !important;
+  }
+  .lake-typography-classic {
+    color: #fff !important;
+  }
+  .larkui-synopsis .larkui-synopsis-progress-bar {
+    border-left: 2px solid #595959 !important;
+  }
+  .larkui-synopsis .larkui-synopsis-item-collapsible-link a {
+    color: #595959;
   }
 }
